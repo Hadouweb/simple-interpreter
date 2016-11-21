@@ -1,0 +1,7 @@
+i = 0;
+iterations = 10;
+
+while (i < iterations) {
+    sums[i] = i + i;
+    i = i + 1;
+}

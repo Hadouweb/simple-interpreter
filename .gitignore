@@ -1,2 +1,4 @@
 obj/
 interp
+.idea
+*.o

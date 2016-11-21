@@ -294,6 +294,16 @@ static inline int push_token(struct token **const tokens,
     return LEX_OK;
 }
 
+/*
+ * input:		Ptr sur char* == (*input)
+ * size:		Taille du buffer a analyser
+ * tokens:
+ * 		struct token {
+ *  		const uint8_t *beg, *end;
+ *   		tk_t tk;
+ *		};
+ *	ntokens:
+ */
 int lex(const uint8_t *const input, const size_t size,
     struct token **const tokens, size_t *const ntokens)
 {
@@ -310,20 +320,12 @@ int lex(const uint8_t *const input, const size_t size,
     size_t allocated = 0;
     *tokens = NULL, *ntokens = 0;
 
-    #define PUSH_OR_NOMEM(tk, beg, end) \
-        if (push_token(tokens, ntokens, &allocated, (tk), (beg), (end))) { \
-            return LEX_NOMEM; \
-        }
-
-    #define foreach_tk \
-        for (tk_t tk = 0; tk < TK_COUNT; ++tk)
-
-    PUSH_OR_NOMEM(TK_FBEG, NULL, NULL);
+	push_token(tokens, ntokens, &allocated, TK_FBEG, prefix_beg, prefix_end);
 
     while (prefix_end < input + size) {
         int did_accept = 0;
 
-        foreach_tk {
+		for (tk_t tk = 0; tk < TK_COUNT; ++tk) {
             if (statuses[tk].prev != STS_REJECT) {
                 statuses[tk].curr = token_funcs[tk](*prefix_end, &states[tk]);
             }
@@ -336,13 +338,13 @@ int lex(const uint8_t *const input, const size_t size,
         if (did_accept) {
             prefix_end++;
 
-            foreach_tk {
+			for (tk_t tk = 0; tk < TK_COUNT; ++tk) {
                 statuses[tk].prev = statuses[tk].curr;
             }
         } else {
             accepted_token = TK_COUNT;
 
-            foreach_tk {
+			for (tk_t tk = 0; tk < TK_COUNT; ++tk) {
                 if (statuses[tk].prev == STS_ACCEPT) {
                     accepted_token = tk;
                 }
@@ -351,7 +353,7 @@ int lex(const uint8_t *const input, const size_t size,
                 statuses[tk].curr = STS_REJECT;
             }
 
-            PUSH_OR_NOMEM(accepted_token, prefix_beg, prefix_end);
+			push_token(tokens, ntokens, &allocated, accepted_token, prefix_beg, prefix_end);
 
             if (accepted_token == TK_COUNT) {
                 (*tokens)[*ntokens - 1].end++;
@@ -364,7 +366,7 @@ int lex(const uint8_t *const input, const size_t size,
 
     accepted_token = TK_COUNT;
 
-    foreach_tk {
+	for (tk_t tk = 0; tk < TK_COUNT; ++tk) {
         if (statuses[tk].curr == STS_ACCEPT) {
             accepted_token = tk;
         }
@@ -373,15 +375,14 @@ int lex(const uint8_t *const input, const size_t size,
         statuses[tk].curr = STS_REJECT;
     }
 
-    PUSH_OR_NOMEM(accepted_token, prefix_beg, prefix_end);
+	push_token(tokens, ntokens, &allocated, accepted_token, prefix_beg, prefix_end);
 
     if (accepted_token == TK_COUNT) {
         return LEX_UNKNOWN_TOKEN;
     }
 
-    PUSH_OR_NOMEM(TK_FEND, NULL, NULL);
+	push_token(tokens, ntokens, &allocated, TK_FEND, prefix_beg, prefix_end);
     return LEX_OK;
 
-    #undef PUSH_OR_NOMEM
     #undef foreach_tk
 }

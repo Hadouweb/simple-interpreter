@@ -1,0 +1,84 @@
+[1;37m*** Lexing ***[0m
+[1;32mi[0m[1;32m [0m[1;33m=[0m[1;33m [0m[1;32m0[0m[1;33m;[0m[1;33m
+[0m[1;32miterations[0m[1;32m [0m[1;33m=[0m[1;33m [0m[1;32m10[0m[1;33m;[0m[1;33m
+
+[0m[1;32mwhile[0m[1;32m [0m[1;33m([0m[1;32mi[0m[1;32m [0m[1;33m<[0m[1;33m [0m[1;32miterations[0m[1;33m)[0m[1;33m [0m[1;32m{[0m[1;32m
+    [0m[1;33msums[0m[1;32m[[0m[1;33mi[0m[1;32m][0m[1;32m [0m[1;33m=[0m[1;33m [0m[1;32mi[0m[1;32m [0m[1;33m+[0m[1;33m [0m[1;32mi[0m[1;33m;[0m[1;33m
+    [0m[1;32mi[0m[1;32m [0m[1;33m=[0m[1;33m [0m[1;32mi[0m[1;32m [0m[1;33m+[0m[1;33m [0m[1;32m1[0m[1;33m;[0m[1;33m
+[0m[1;32m}[0m[1;37m
+*** Parsing ***[0m
+[1;36mShift: [0m[1;32m^ [0m
+[1;36mShift: [0m[1;32m^ [0m[1;32mi [0m
+[1;36mShift: [0m[1;32m^ [0m[1;32mi [0m[1;32m= [0m
+[1;36mShift: [0m[1;32m^ [0m[1;32mi [0m[1;32m= [0m[1;32m0 [0m
+[1;34mRed19: [0m[1;32m^ [0m[1;32mi [0m[1;32m= [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;32mi [0m[1;32m= [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;32mi [0m[1;32m= [0m[1;33mExpr [0m[1;32m; [0m
+[1;34mRed05: [0m[1;32m^ [0m[1;33mAssn [0m
+[1;34mRed02: [0m[1;32m^ [0m[1;33mStmt [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32miterations [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32miterations [0m[1;32m= [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32miterations [0m[1;32m= [0m[1;32m10 [0m
+[1;34mRed19: [0m[1;32m^ [0m[1;33mStmt [0m[1;32miterations [0m[1;32m= [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32miterations [0m[1;32m= [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32miterations [0m[1;32m= [0m[1;33mExpr [0m[1;32m; [0m
+[1;34mRed05: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mAssn [0m
+[1;34mRed02: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;32mi [0m
+[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m[1;32m< [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m[1;32m< [0m[1;32miterations [0m
+[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m[1;32m< [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m[1;32m< [0m[1;33mExpr [0m
+[1;34mRed29: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;33mBexp [0m
+[1;34mRed22: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m[1;32m) [0m
+[1;34mRed26: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mPexp [0m
+[1;34mRed21: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;32msums [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;32msums [0m[1;32m[ [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;32msums [0m[1;32m[ [0m[1;32mi [0m
+[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;32msums [0m[1;32m[ [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;32msums [0m[1;32m[ [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;32msums [0m[1;32m[ [0m[1;33mExpr [0m[1;32m] [0m
+[1;34mRed44: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;32mi [0m
+[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m[1;32mi [0m
+[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m[1;33mExpr [0m
+[1;34mRed35: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;33mBexp [0m
+[1;34mRed22: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;33mExpr [0m[1;32m; [0m
+[1;34mRed06: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAssn [0m
+[1;34mRed02: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;32mi [0m
+[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m[1;32m1 [0m
+[1;34mRed19: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m[1;33mExpr [0m
+[1;34mRed35: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;33mBexp [0m
+[1;34mRed22: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;33mExpr [0m[1;32m; [0m
+[1;34mRed05: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;33mAssn [0m
+[1;34mRed02: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m} [0m
+[1;34mRed17: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;33mWhil [0m
+[1;34mRed12: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;33mCtrl [0m
+[1;34mRed04: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;33mStmt [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m$ [0m
+[1;34mRed01: [0m[1;33mUnit [0m
+[1;32mACCEPT [0m[1;33mUnit [0m
+[1;37m
+*** Running ***[0m
