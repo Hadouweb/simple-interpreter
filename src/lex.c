@@ -268,15 +268,25 @@ static sts_t (*const token_funcs[TK_COUNT])(const uint8_t, uint8_t *const) = {
     tk_coln,
 };
 
-static inline int push_token(struct token **const tokens,
-    size_t *const ntokens, size_t *const allocated, const tk_t token,
-    const uint8_t *const beg, const uint8_t *const end)
+/*
+ *	tokens:
+ *		const uint8_t *beg, *end;
+ *  	tk_t tk; => uint8_t
+ */
+static inline int push_token(
+	struct token **const tokens,
+    size_t *const ntokens,
+    size_t *const allocated,
+    const tk_t token,
+    const uint8_t *const beg,
+    const uint8_t *const end)
 {
     if (*ntokens >= *allocated) {
-        *allocated = (*allocated ?: 1) * 8;
+    	if (*allocated == 0)
+    		*allocated = 1;
+        *allocated = *allocated * 8;
 
-        struct token *const tmp =
-            realloc(*tokens, *allocated * sizeof(struct token));
+        struct token *const tmp = realloc(*tokens, *allocated * sizeof(struct token));
 
         if (!tmp) {
             return free(*tokens), *tokens = NULL, LEX_NOMEM;
@@ -295,56 +305,92 @@ static inline int push_token(struct token **const tokens,
 }
 
 /*
- * input:		Ptr sur char* == (*input)
- * size:		Taille du buffer a analyser
- * tokens:
- * 		struct token {
- *  		const uint8_t *beg, *end;
- *   		tk_t tk;
- *		};
- *	ntokens:
+ *  input:		Ptr sur char* == (*input)
+ *  size:		Taille du buffer a analyser
+ *  tokens:		Tableau de token
+ * 		        struct token {
+ *  		        const uint8_t *beg, *end;
+ *   		        tk_t tk;
+ *		        };
+ *  ntokens:	Index pour le tableau de token
  */
 int lex(const uint8_t *const input, const size_t size,
     struct token **const tokens, size_t *const ntokens)
 {
+	/*
+	 *	Structure anonyme
+	 *	Pour TK_COUNT = 2 alors
+	 *	statuses[0].prev = STS_HUNGRY
+	 *	statuses[0].curr = STS_REJECT
+	 *	statuses[1].prev = STS_HUNGRY
+	 *	statuses[1].curr = STS_REJECT
+	 */
     static struct {
-        sts_t prev, curr;
+        sts_t prev;
+        sts_t curr;
     } statuses[TK_COUNT] = {
         [0 ... TK_COUNT - 1] = { STS_HUNGRY, STS_REJECT }
     };
 
+	//	Token pour machine a etat
     uint8_t states[TK_COUNT] = {0};
 
-    const uint8_t *prefix_beg = input, *prefix_end = input;
-    tk_t accepted_token;
-    size_t allocated = 0;
-    *tokens = NULL, *ntokens = 0;
+	//	Ptr sur le debut de la chaine
+    const uint8_t *prefix_beg = input;
+    //	Ptr sur la fin de la chaine
+    const uint8_t *prefix_end = input;
 
+    /*
+     *  typedef uint8_t tk_t;
+     *  Permet de savoir si un token est trouve
+     */
+    tk_t accepted_token;
+
+    size_t allocated = 0;
+    *tokens = NULL;
+    *ntokens = 0;
+
+	// Ajout du token TK_FBEG avec debut de la chaine et fin de la chaine
 	push_token(tokens, ntokens, &allocated, TK_FBEG, prefix_beg, prefix_end);
 
+	// Tant que le buffer n'est pas totalement parcouru
     while (prefix_end < input + size) {
         int did_accept = 0;
 
+		/*
+		 *	Pour chaque token a verifier
+		 *	TK_COUNT = 36
+		 */
 		for (tk_t tk = 0; tk < TK_COUNT; ++tk) {
+			//	Si le caractere precedent n'est pas rejeter
             if (statuses[tk].prev != STS_REJECT) {
+            	// test du caractere courrant
                 statuses[tk].curr = token_funcs[tk](*prefix_end, &states[tk]);
             }
 
+			//	Si le caractere courrant n'est pas rejeter
             if (statuses[tk].curr != STS_REJECT) {
                 did_accept = 1;
             }
         }
 
+		//	Si le caractere courrant n'est pas rejeter on passe au caractere suivant
         if (did_accept) {
             prefix_end++;
 
+			//	Pour chaque token a verifier
 			for (tk_t tk = 0; tk < TK_COUNT; ++tk) {
+				// On place le caractere courrant en tant que previous
                 statuses[tk].prev = statuses[tk].curr;
             }
+        //	Si le caractere courrant est rejeter
         } else {
+        	//	accepted_token == 36
             accepted_token = TK_COUNT;
 
+			//	Pour chaque token a verifier
 			for (tk_t tk = 0; tk < TK_COUNT; ++tk) {
+				//	Si le caractere precedent est accepte alors accepted_token == index_tk
                 if (statuses[tk].prev == STS_ACCEPT) {
                     accepted_token = tk;
                 }
@@ -353,20 +399,26 @@ int lex(const uint8_t *const input, const size_t size,
                 statuses[tk].curr = STS_REJECT;
             }
 
+			//	Push token TK_COUNT ou index_tk
 			push_token(tokens, ntokens, &allocated, accepted_token, prefix_beg, prefix_end);
 
+			//	Si accepted_token == 36 alors on incremente la fin de la derniere structure tokens
             if (accepted_token == TK_COUNT) {
                 (*tokens)[*ntokens - 1].end++;
                 return LEX_UNKNOWN_TOKEN;
             }
 
+			//	On passe au prochaine token si il existe
             prefix_beg = prefix_end;
         }
     }
 
+	//	accepted_token == 36
     accepted_token = TK_COUNT;
 
+	//	Pour chaque token a verifier
 	for (tk_t tk = 0; tk < TK_COUNT; ++tk) {
+		//	Si le caractere courrant est accepter alors accepted_token == index_tk
         if (statuses[tk].curr == STS_ACCEPT) {
             accepted_token = tk;
         }
@@ -375,14 +427,15 @@ int lex(const uint8_t *const input, const size_t size,
         statuses[tk].curr = STS_REJECT;
     }
 
+	//	Push token TK_COUNT ou index_tk
 	push_token(tokens, ntokens, &allocated, accepted_token, prefix_beg, prefix_end);
 
+	//	Si accepted_token == 36 alors on return car on a pas trouve de token
     if (accepted_token == TK_COUNT) {
         return LEX_UNKNOWN_TOKEN;
     }
 
+	//	Push TK_FEND
 	push_token(tokens, ntokens, &allocated, TK_FEND, prefix_beg, prefix_end);
     return LEX_OK;
-
-    #undef foreach_tk
 }

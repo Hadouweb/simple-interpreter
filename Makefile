@@ -20,3 +20,5 @@ $(NAME): $(OBJS)
 clean:
 	rm -rf $(OBJDIR)
 	rm -f $(NAME)
+
+re: clean all

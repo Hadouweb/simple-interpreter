@@ -49,7 +49,7 @@ enum {
     TK_SCOL,
     TK_QUES,
     TK_COLN,
-    TK_COUNT,
+    TK_COUNT, // 36 Bonne valeur car tout se qui se trouve au dessus sont des ptr func tokens
     TK_FBEG,
     TK_FEND,
 };

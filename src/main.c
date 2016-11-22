@@ -11,7 +11,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 
-static void print_tokens(const struct token *const tokens,
+void print_tokens(const struct token *const tokens,
     const size_t ntokens, const int error)
 {
     for (size_t i = 0, alternate = 0; i < ntokens; ++i) {
@@ -39,6 +39,16 @@ static void print_tokens(const struct token *const tokens,
     }
 }
 
+void	debug_print_tokens(char *buffer, struct token *tokens, int size)
+{
+	printf("\nBUFFER: [%s]\n\n", buffer);
+	printf("%10s \t\t %10s \t\t\t %10s\n\n", "beg", "end", "tk");
+	for(int i = 0; i < size; i++)
+	{
+		printf("[%20s] \t [%20s] \t [%20d]\n", tokens[i].beg, tokens[i].end, tokens[i].tk);
+	}
+}
+
 int main(int argc, char **argv)
 {
     int fd;
@@ -63,6 +73,11 @@ int main(int argc, char **argv)
         return close(fd), exit_status;
     }
 
+	/*
+	 * Projection en memoire du fd commencant a l'adresse 0 sur une taille size
+	 * uint8_t == void *
+	 * mapped == ptr
+	 */
     const uint8_t *const mapped = mmap(0, size, PROT_READ, MAP_PRIVATE, fd, 0);
 
     if (mapped == MAP_FAILED) {
@@ -70,9 +85,15 @@ int main(int argc, char **argv)
     }
 
     puts(WHITE("*** Lexing ***"));
+
+    /*
+     *	const uint8_t *beg, *end;
+     *	tk_t tk;
+     */
     struct token *tokens;
     size_t ntokens;
     const int lex_error = lex(mapped, size, &tokens, &ntokens);
+	debug_print_tokens((char*)mapped, tokens, ntokens);
 
     if (!lex_error || lex_error == LEX_UNKNOWN_TOKEN) {
         print_tokens(tokens, ntokens, lex_error);
@@ -86,7 +107,7 @@ int main(int argc, char **argv)
 
         if (!parse_error(root)) {
             puts(WHITE("\n*** Running ***"));
-            run(&root);
+            //run(&root);
             destroy_tree(root);
             exit_status = EXIT_SUCCESS;
         }
