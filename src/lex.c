@@ -81,18 +81,15 @@ static sts_t token(const uint8_t c, uint8_t *const s) \
 
 static sts_t tk_name(const uint8_t c, uint8_t *const s)
 {
-    enum {
-        tk_name_begin,
-        tk_name_accum,
-    };
+	// TR(st, tr) (*s = (0), (STS_##ACCEPT))
+	switch (*s) {
+		case 0:
+			*s = 1;
+			return IS_ALPHA(c) || (c == '_') ? STS_ACCEPT : REJECT;
 
-    switch (*s) {
-    case tk_name_begin:
-        return IS_ALPHA(c) || (c == '_') ? TR(tk_name_accum, ACCEPT) : REJECT;
-
-    case tk_name_accum:
-        return IS_ALNUM(c) || (c == '_') ? STS_ACCEPT : REJECT;
-    }
+		case 1:
+			return IS_ALNUM(c) || (c == '_') ? STS_ACCEPT : REJECT;
+	}
 
     abort();
 }
@@ -376,6 +373,7 @@ int lex(const uint8_t *const input, const size_t size,
 
 		//	Si le caractere courrant n'est pas rejeter on passe au caractere suivant
         if (did_accept) {
+        printf("__here 1 [%s]\n", prefix_end);
             prefix_end++;
 
 			//	Pour chaque token a verifier
@@ -385,6 +383,7 @@ int lex(const uint8_t *const input, const size_t size,
             }
         //	Si le caractere courrant est rejeter
         } else {
+        printf("__here 2\n");
         	//	accepted_token == 36
             accepted_token = TK_COUNT;
 
@@ -398,7 +397,7 @@ int lex(const uint8_t *const input, const size_t size,
                 statuses[tk].prev = STS_HUNGRY;
                 statuses[tk].curr = STS_REJECT;
             }
-
+		printf("__here 3 %d\n", accepted_token);
 			//	Push token TK_COUNT ou index_tk
 			push_token(tokens, ntokens, &allocated, accepted_token, prefix_beg, prefix_end);
 

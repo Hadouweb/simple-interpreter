@@ -107,7 +107,7 @@ int main(int argc, char **argv)
 
         if (!parse_error(root)) {
             puts(WHITE("\n*** Running ***"));
-            //run(&root);
+            run(&root);
             destroy_tree(root);
             exit_status = EXIT_SUCCESS;
         }
