@@ -79,6 +79,9 @@ static sts_t token(const uint8_t c, uint8_t *const s) \
     } \
 }
 
+#define TR(st, tr) (*s = (st), (STS_##tr))
+#define REJECT TR(0, REJECT)
+
 static sts_t tk_name(const uint8_t c, uint8_t *const s)
 {
 	// TR(st, tr) (*s = (0), (STS_##ACCEPT))

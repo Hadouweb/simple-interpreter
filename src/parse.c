@@ -60,7 +60,56 @@ struct rule {
     { .lhs = NT_##_lhs, .rhs = { no, t1, t2, t3, t4, t5, t6, t7, t8, } },
 
 static const struct rule grammar[] = {
-    r3(Unit, t(FBEG), m(Stmt), t(FEND)                                     )
+        {
+                .lhs = NT_Unit,
+                .rhs = {
+                        {
+                                .tk = TK_COUNT,
+                                .is_tk = 1,
+                                .is_mt = 0
+                        },
+                        {
+                                .tk = TK_COUNT,
+                                .is_tk = 1,
+                                .is_mt = 0
+                        },
+                        {
+                                .tk = TK_COUNT,
+                                .is_tk = 1,
+                                .is_mt = 0
+                        },
+                        {
+                                .tk = TK_COUNT,
+                                .is_tk = 1,
+                                .is_mt = 0
+                        },
+                        {
+                                .tk = TK_COUNT,
+                                .is_tk = 1,
+                                .is_mt = 0
+                        },
+                        {
+                                .tk = TK_COUNT,
+                                .is_tk = 1,
+                                .is_mt = 0
+                        },
+                        {
+                                .tk = TK_FBEG,
+                                .is_tk = 1,
+                                .is_mt = 0
+                        },
+                        {
+                                .nt = NT_Stmt,
+                                .is_tk = 0,
+                                .is_mt = 1
+                        },
+                        {
+                                .tk = TK_FEND,
+                                .is_tk = 1,
+                                .is_mt = 0
+                        },
+                }
+        },
 
     r1(Stmt, n(Assn)                                                       )
     r1(Stmt, n(Prnt)                                                       )
@@ -208,13 +257,38 @@ static void destroy_stack(void)
     deallocate_stack();
 }
 
+/*
+ * 	struct term {
+ *		union {
+ *			const tk_t tk;
+ *			const nt_t nt;
+ *		};
+ *		const uint8_t is_tk: 1;
+ *		const uint8_t is_mt: 1;
+ *	};
+ *
+ *  struct node {
+ *      uint32_t nchildren;
+ *      union {
+ *          const struct token *token;
+ *			struct {
+ *				nt_t nt; // uint8_t
+ *				struct node **children;
+ *			};
+ *		};
+ *	}
+ */
+ // Verification si un term est egal a un noeud
 static inline int term_eq_node(
     const struct term *const term,
     const struct node *const node)
 {
+	// Le noeud est une feuille
     const int node_is_leaf = node->nchildren == 0;
 
+	// Si is_tk est au node
     if (term->is_tk == node_is_leaf) {
+    	// Le node est une feuille
         if (node_is_leaf) {
             return term->tk == node->token->tk;
         } else {
@@ -225,16 +299,33 @@ static inline int term_eq_node(
     return 0;
 }
 
+/*
+ * 	struct term {
+ *		union {
+ *			const tk_t tk;
+ *			const nt_t nt;
+ *		};
+ *		const uint8_t is_tk: 1;
+ *		const uint8_t is_mt: 1;
+ *	};
+ *
+ *	struct rule {
+ *		const nt_t lhs; // uint8_t
+ *		const struct term rhs[RULE_RHS_LAST + 1];
+ *	};
+ */
 static size_t match_rule(const struct rule *const rule, size_t *const at)
 {
     const struct term *prev = NULL;
-    const struct term *term = &rule->rhs[RULE_RHS_LAST];
+    const struct term *term = &rule->rhs[RULE_RHS_LAST]; // rhs = right-hand side of rule
     ssize_t st_idx = stack.size - 1;
 
     do {
+		// Si un term est egal a un noeud
         if (term_eq_node(term, &stack.nodes[st_idx])) {
             prev = term->is_mt ? term : NULL;
             --term, --st_idx;
+		// Si prev existe term est egal a un noeud
         } else if (prev && term_eq_node(prev, &stack.nodes[st_idx])) {
             --st_idx;
         } else if (term->is_mt) {
@@ -249,25 +340,45 @@ static size_t match_rule(const struct rule *const rule, size_t *const at)
     const int reached_eor = term && term->is_tk && term->tk == TK_COUNT;
     const size_t reduction_size = stack.size - st_idx - 1;
 
-    return reached_eor && reduction_size ?
-        (*at = st_idx + 1, reduction_size) : 0;
+    return reached_eor && reduction_size ? (*at = st_idx + 1, reduction_size) : 0;
 }
 
+// Add token node on the stack struct and free if error
 static inline int shift(const struct token *const token)
 {
+	/*
+	 *	static struct {
+     *		size_t size;
+     *		size_t allocated;
+     *		struct node *nodes;
+	 *	} stack;
+	 */
+	// Allocation de la stack, realloc
     if (stack.size >= stack.allocated) {
-        stack.allocated = (stack.allocated ?: 1) * 8;
+    	if (stack.allocated == 0)
+    		stack.allocated = 1;
+        stack.allocated = stack.allocated * 8;
 
-        struct node *const tmp = realloc(stack.nodes,
-            stack.allocated * sizeof(struct node));
+        struct node *const tmp = realloc(stack.nodes, stack.allocated * sizeof(struct node));
 
-        if (!tmp) {
+        if (!tmp)
             return PARSE_NOMEM;
-        }
 
         stack.nodes = tmp;
     }
 
+	/*
+	 *  struct node {
+	 *      uint32_t nchildren;
+	 *      union {
+	 *          const struct token *token;
+	 *			struct {
+	 *				nt_t nt; // uint8_t
+	 *				struct node **children;
+	 *			};
+	 *		};
+	 *	}
+	 */
     stack.nodes[stack.size++] = (struct node) {
         .nchildren = 0,
         .token = token,
@@ -285,12 +396,17 @@ static inline bool should_shift_pre(
         return false;
     }
 
+	// Skip white space
     while (SKIP_TOKEN(tokens[*token_idx].tk)) {
         ++*token_idx;
     }
 
     const struct token *const ahead = &tokens[*token_idx];
 
+	/*
+	 *	Vérifiez si l'opérateur ahead a une priorité inférieure. Si c'est le cas,
+     *	Laissez le parser le décaler avant d'appliquer la réduction Bexp.
+	 */
     if (rule->lhs == NT_Bexp && ahead->tk >= TK_EQUL && ahead->tk <= TK_MODU) {
         /*
             Check whether the operator ahead has a lower precedence. If it has,
@@ -302,6 +418,7 @@ static inline bool should_shift_pre(
         if (p2 < p1) {
             return true;
         }
+	//	Interdit le côté gauche d'une affectation ou d'un nom de passer à Expr.
     } else if (rule->lhs == NT_Atom && rule->rhs[RULE_RHS_LAST].tk == TK_NAME) {
         /*
             Do not allow the left side of an assignment or an array name to
@@ -310,6 +427,7 @@ static inline bool should_shift_pre(
         if (ahead->tk == TK_ASSN || ahead->tk == TK_LBRA) {
             return true;
         }
+	//	Interdit l'extension d'un Aexp sur le côté gauche d'une tâche À Expr
     } else if (rule->lhs == NT_Expr && rule->rhs[RULE_RHS_LAST].nt == NT_Aexp) {
         /*
             Do not allow an Aexp on the left side of an assignment to escalate
@@ -382,36 +500,72 @@ static int reduce(const struct rule *const rule,
 
 struct node parse(const struct token *const tokens, const size_t ntokens)
 {
+    /*
+     *  struct token {
+     *      const uint8_t *beg, *end;
+     *      tk_t tk;
+     *  }
+     */
     static const struct token
         reject = { .tk = PARSE_REJECT },
         nomem  = { .tk = PARSE_NOMEM  };
 
+    /*
+     *  struct node {
+     *      uint32_t nchildren;
+     *      union {
+     *          const struct token *token;
+     *			struct {
+     *				nt_t nt; // uint8_t
+     *				struct node **children;
+     *			};
+     *		};
+	 *	}
+     */
     static const struct node
-        err_reject = { .nchildren = 0, .token = &reject },
-        err_nomem  = { .nchildren = 0, .token = &nomem  };
+    	err_reject = {
+        	.nchildren = 0,
+        	.token = &reject
+		},
+        err_nomem  = {
+        	.nchildren = 0,
+        	.token = &nomem
+		};
 
-    #define SHIFT_OR_NOMEM(t) \
-        if (shift(t)) { \
-            puts(RED("Out of memory on shift!")); \
-            return destroy_stack(), err_nomem; \
-        }
-
-    #define REDUCE_OR_NOMEM(r, a, s) \
-        if (reduce(r, a, s)) { \
-            puts(RED("Out of memory on reduce!")); \
-            return destroy_stack(), err_nomem; \
-        }
-
+	// Skip white space
     for (size_t token_idx = 0; token_idx < ntokens; ) {
-        if (SKIP_TOKEN(tokens[token_idx].tk)) {
+        if (tokens[token_idx].tk == TK_WSPC ||
+        	tokens[token_idx].tk == TK_LCOM ||
+        	tokens[token_idx].tk == TK_BCOM)
+		{
             ++token_idx;
             continue;
         }
 
-        SHIFT_OR_NOMEM(&tokens[token_idx++]);
+		// Add token node on the stack struct and free if error
+		if (shift(&tokens[token_idx++])) {
+            puts(RED("Out of memory on shift!"));
+            return destroy_stack(), err_nomem;
+        }
         printf(CYAN("Shift: ")), print_stack();
 
+		// Goto => while
         try_reduce_again:;
+		/*
+		 * 	struct term {
+		 *		union {
+		 *			const tk_t tk;
+		 *			const nt_t nt;
+		 *		};
+		 *		const uint8_t is_tk: 1;
+		 *		const uint8_t is_mt: 1;
+		 *	};
+         *
+         *	struct rule {
+		 *		const nt_t lhs; // uint8_t
+		 *		const struct term rhs[RULE_RHS_LAST + 1];
+		 *	};
+		 */
         const struct rule *rule = grammar;
 
         do {
@@ -421,13 +575,19 @@ struct node parse(const struct token *const tokens, const size_t ntokens)
                 const bool do_shift = should_shift_pre(rule, tokens, &token_idx);
 
                 if (!do_shift) {
-                    REDUCE_OR_NOMEM(rule, reduction_at, reduction_size);
+					if (reduce(rule, reduction_at, reduction_size)) {
+						puts(RED("Out of memory on reduce!"));
+						return destroy_stack(), err_nomem;
+					}
                     const ptrdiff_t rule_number = rule - grammar + 1;
                     printf(ORANGE("Red%02td: "), rule_number), print_stack();
                 }
 
                 if (do_shift || should_shift_post(rule, tokens, &token_idx)) {
-                    SHIFT_OR_NOMEM(&tokens[token_idx++]);
+					if (shift(&tokens[token_idx++])) {
+						puts(RED("Out of memory on shift!"));
+						return destroy_stack(), err_nomem;
+					}
                     printf(CYAN("Shift: ")), print_stack();
                 }
 
@@ -435,9 +595,6 @@ struct node parse(const struct token *const tokens, const size_t ntokens)
             }
         } while (++rule != grammar + GRAMMAR_SIZE);
     }
-
-    #undef SHIFT_OR_NOMEM
-    #undef REDUCE_OR_NOMEM
 
     const int accepted = stack.size == 1 &&
         stack.nodes[0].nchildren && stack.nodes[0].nt == NT_Unit;

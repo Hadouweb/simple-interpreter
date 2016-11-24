@@ -1,84 +1,5787 @@
 [1;37m*** Lexing ***[0m
-[1;32mi[0m[1;32m [0m[1;33m=[0m[1;33m [0m[1;32m0[0m[1;33m;[0m[1;33m
-[0m[1;32miterations[0m[1;32m [0m[1;33m=[0m[1;33m [0m[1;32m10[0m[1;33m;[0m[1;33m
+__here 1 [number = 1;
 
-[0m[1;32mwhile[0m[1;32m [0m[1;33m([0m[1;32mi[0m[1;32m [0m[1;33m<[0m[1;33m [0m[1;32miterations[0m[1;33m)[0m[1;33m [0m[1;32m{[0m[1;32m
-    [0m[1;33msums[0m[1;32m[[0m[1;33mi[0m[1;32m][0m[1;32m [0m[1;33m=[0m[1;33m [0m[1;32mi[0m[1;32m [0m[1;33m+[0m[1;33m [0m[1;32mi[0m[1;33m;[0m[1;33m
-    [0m[1;32mi[0m[1;32m [0m[1;33m=[0m[1;33m [0m[1;32mi[0m[1;32m [0m[1;33m+[0m[1;33m [0m[1;32m1[0m[1;33m;[0m[1;33m
-[0m[1;32m}[0m[1;37m
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [umber = 1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [mber = 1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ber = 1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [er = 1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [r = 1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 0
+__here 1 [ = 1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [= 1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 17
+__here 1 [ 1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 1
+__here 1 [;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 33
+__here 1 [
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [o {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 15
+__here 1 [ {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [{
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 10
+__here 1 [
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [   if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [  if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [f (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 12
+__here 1 [ (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [(number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 6
+__here 1 [number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [umber % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [mber % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ber % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [er % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [r % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 0
+__here 1 [ % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [% 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 30
+__here 1 [ 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 1
+__here 1 [ == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [== 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [= 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 18
+__here 1 [ 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 1
+__here 1 [ && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [&& number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [& number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 24
+__here 1 [ number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [umber % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [mber % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ber % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [er % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [r % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 0
+__here 1 [ % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [% 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 30
+__here 1 [ 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 1
+__here 1 [ == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [== 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [= 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 18
+__here 1 [ 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 1
+__here 1 [) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 7
+__here 1 [ {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [{
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 10
+__here 1 [
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [       print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [      print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [     print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [    print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [   print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [  print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [rint "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [int "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [nt "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [t "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 32
+__here 1 [ "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 ["FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [izzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [zzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [zBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [Buzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [uzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [zz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [z " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [" number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 2
+__here 1 [ number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [umber;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [mber;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ber;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [er;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [r;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 0
+__here 1 [;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 33
+__here 1 [
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [   } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [  } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [} elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 11
+__here 1 [ elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [lif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [if (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [f (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 13
+__here 1 [ (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [(number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 6
+__here 1 [number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [umber % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [mber % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ber % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [er % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [r % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 0
+__here 1 [ % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [% 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 30
+__here 1 [ 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 1
+__here 1 [ == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [== 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [= 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 18
+__here 1 [ 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 1
+__here 1 [) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 7
+__here 1 [ {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [{
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 10
+__here 1 [
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [       print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [      print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [     print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [    print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [   print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [  print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [rint "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [int "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [nt "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [t "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 32
+__here 1 [ "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 ["Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [izz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [zz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [z " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [" number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 2
+__here 1 [ number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [umber;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [mber;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ber;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [er;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [r;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 0
+__here 1 [;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 33
+__here 1 [
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [   } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [  } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [} elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 11
+__here 1 [ elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [lif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [if (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [f (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 13
+__here 1 [ (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [(number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 6
+__here 1 [number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [umber % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [mber % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ber % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [er % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [r % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 0
+__here 1 [ % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [% 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 30
+__here 1 [ 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 1
+__here 1 [ == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [== 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [= 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 18
+__here 1 [ 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 1
+__here 1 [) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 7
+__here 1 [ {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [{
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 10
+__here 1 [
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [       print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [      print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [     print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [    print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [   print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [  print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [rint "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [int "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [nt "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [t "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 32
+__here 1 [ "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 ["Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [uzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [zz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [z " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [" number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 2
+__here 1 [ number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [umber;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [mber;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ber;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [er;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [r;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 0
+__here 1 [;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 33
+__here 1 [
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [   } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [  } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [} else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 11
+__here 1 [ else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [lse {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [se {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [e {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 14
+__here 1 [ {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [{
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 10
+__here 1 [
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [       print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [      print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [     print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [    print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [   print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [  print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [rint number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [int number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [nt number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [t number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 32
+__here 1 [ number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [umber;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [mber;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ber;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [er;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [r;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 0
+__here 1 [;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 33
+__here 1 [
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [   }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [  }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [}
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 11
+__here 1 [
+    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [    
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [   
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [  
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ 
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [
+    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [    number = number + 1;
+} while (number <= 100);
+]
+__here 1 [   number = number + 1;
+} while (number <= 100);
+]
+__here 1 [  number = number + 1;
+} while (number <= 100);
+]
+__here 1 [ number = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [number = number + 1;
+} while (number <= 100);
+]
+__here 1 [umber = number + 1;
+} while (number <= 100);
+]
+__here 1 [mber = number + 1;
+} while (number <= 100);
+]
+__here 1 [ber = number + 1;
+} while (number <= 100);
+]
+__here 1 [er = number + 1;
+} while (number <= 100);
+]
+__here 1 [r = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 0
+__here 1 [ = number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [= number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 17
+__here 1 [ number + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [number + 1;
+} while (number <= 100);
+]
+__here 1 [umber + 1;
+} while (number <= 100);
+]
+__here 1 [mber + 1;
+} while (number <= 100);
+]
+__here 1 [ber + 1;
+} while (number <= 100);
+]
+__here 1 [er + 1;
+} while (number <= 100);
+]
+__here 1 [r + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 0
+__here 1 [ + 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [+ 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 26
+__here 1 [ 1;
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [1;
+} while (number <= 100);
+]
+__here 2
+__here 3 1
+__here 1 [;
+} while (number <= 100);
+]
+__here 2
+__here 3 33
+__here 1 [
+} while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [} while (number <= 100);
+]
+__here 2
+__here 3 11
+__here 1 [ while (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [while (number <= 100);
+]
+__here 1 [hile (number <= 100);
+]
+__here 1 [ile (number <= 100);
+]
+__here 1 [le (number <= 100);
+]
+__here 1 [e (number <= 100);
+]
+__here 2
+__here 3 16
+__here 1 [ (number <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [(number <= 100);
+]
+__here 2
+__here 3 6
+__here 1 [number <= 100);
+]
+__here 1 [umber <= 100);
+]
+__here 1 [mber <= 100);
+]
+__here 1 [ber <= 100);
+]
+__here 1 [er <= 100);
+]
+__here 1 [r <= 100);
+]
+__here 2
+__here 3 0
+__here 1 [ <= 100);
+]
+__here 2
+__here 3 3
+__here 1 [<= 100);
+]
+__here 1 [= 100);
+]
+__here 2
+__here 3 22
+__here 1 [ 100);
+]
+__here 2
+__here 3 3
+__here 1 [100);
+]
+__here 1 [00);
+]
+__here 1 [0);
+]
+__here 2
+__here 3 1
+__here 1 [);
+]
+__here 2
+__here 3 7
+__here 1 [;
+]
+__here 2
+__here 3 33
+__here 1 [
+]
+
+BUFFER: [number = 1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+]
+
+       beg 		        end 			         tk
+
+[number = 1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [number = 1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  37]
+[number = 1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ = 1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   0]
+[ = 1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [= 1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[= 1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ 1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  17]
+[ 1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[1;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   1]
+[;
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  33]
+[
+
+do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[do {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  15]
+[ {
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [{
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[{
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  10]
+[
+    if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[if (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  12]
+[ (number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [(number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[(number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   6]
+[number % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   0]
+[ % 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [% 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[% 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  30]
+[ 3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[3 == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   1]
+[ == 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [== 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[== 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  18]
+[ 0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[0 && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   1]
+[ && number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [&& number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[&& number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  24]
+[ number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[number % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   0]
+[ % 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [% 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[% 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  30]
+[ 5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[5 == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   1]
+[ == 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [== 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[== 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  18]
+[ 0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[0) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   1]
+[) {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   7]
+[ {
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [{
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[{
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  10]
+[
+        print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[print "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  32]
+[ "FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 ["FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+["FizzBuzz " number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   2]
+[ number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[number;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   0]
+[;
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  33]
+[
+    } elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [} elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[} elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  11]
+[ elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[elif (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  13]
+[ (number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [(number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[(number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   6]
+[number % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   0]
+[ % 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [% 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[% 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  30]
+[ 5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[5 == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   1]
+[ == 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [== 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[== 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  18]
+[ 0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[0) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   1]
+[) {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   7]
+[ {
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [{
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[{
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  10]
+[
+        print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[print "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  32]
+[ "Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 ["Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+["Fizz " number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   2]
+[ number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[number;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   0]
+[;
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  33]
+[
+    } elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [} elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[} elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  11]
+[ elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[elif (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  13]
+[ (number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [(number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[(number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   6]
+[number % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   0]
+[ % 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [% 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[% 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  30]
+[ 3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[3 == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   1]
+[ == 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [== 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[== 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  18]
+[ 0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[0) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   1]
+[) {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   7]
+[ {
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [{
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[{
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  10]
+[
+        print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[print "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  32]
+[ "Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 ["Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+["Buzz " number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   2]
+[ number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[number;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   0]
+[;
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  33]
+[
+    } else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [} else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[} else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  11]
+[ else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[else {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  14]
+[ {
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [{
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[{
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  10]
+[
+        print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[print number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [ number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  32]
+[ number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[number;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   0]
+[;
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  33]
+[
+    }
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [}
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[}
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [                  11]
+[
+    
+    number = number + 1;
+} while (number <= 100);
+] 	 [number = number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[number = number + 1;
+} while (number <= 100);
+] 	 [ = number + 1;
+} while (number <= 100);
+] 	 [                   0]
+[ = number + 1;
+} while (number <= 100);
+] 	 [= number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[= number + 1;
+} while (number <= 100);
+] 	 [ number + 1;
+} while (number <= 100);
+] 	 [                  17]
+[ number + 1;
+} while (number <= 100);
+] 	 [number + 1;
+} while (number <= 100);
+] 	 [                   3]
+[number + 1;
+} while (number <= 100);
+] 	 [ + 1;
+} while (number <= 100);
+] 	 [                   0]
+[ + 1;
+} while (number <= 100);
+] 	 [+ 1;
+} while (number <= 100);
+] 	 [                   3]
+[+ 1;
+} while (number <= 100);
+] 	 [ 1;
+} while (number <= 100);
+] 	 [                  26]
+[ 1;
+} while (number <= 100);
+] 	 [1;
+} while (number <= 100);
+] 	 [                   3]
+[1;
+} while (number <= 100);
+] 	 [;
+} while (number <= 100);
+] 	 [                   1]
+[;
+} while (number <= 100);
+] 	 [
+} while (number <= 100);
+] 	 [                  33]
+[
+} while (number <= 100);
+] 	 [} while (number <= 100);
+] 	 [                   3]
+[} while (number <= 100);
+] 	 [ while (number <= 100);
+] 	 [                  11]
+[ while (number <= 100);
+] 	 [while (number <= 100);
+] 	 [                   3]
+[while (number <= 100);
+] 	 [   (number <= 100);
+] 	 [                  16]
+[   (number <= 100);
+] 	 [   (number <= 100);
+] 	 [                   3]
+[   (number <= 100);
+] 	 [    number <= 100);
+] 	 [                   6]
+[    number <= 100);
+] 	 [           <= 100);
+] 	 [                   0]
+[           <= 100);
+] 	 [           <= 100);
+] 	 [                   3]
+[           <= 100);
+] 	 [              100);
+] 	 [                  22]
+[              100);
+] 	 [              100);
+] 	 [                   3]
+[              100);
+] 	 [                 );
+] 	 [                   1]
+[                 );
+] 	 [                  ;
+] 	 [                   7]
+[                  ;
+] 	 [                   
+] 	 [                  33]
+[                   
+] 	 [                    ] 	 [                   3]
+[                   
+] 	 [                    ] 	 [                  38]
+[1;32mnumber[0m[1;32m [0m[1;33m=[0m[1;33m [0m[1;32m1[0m[1;33m;[0m[1;33m
+
+[0m[1;32mdo[0m[1;32m [0m[1;33m{[0m[1;33m
+    [0m[1;32mif[0m[1;32m [0m[1;33m([0m[1;32mnumber[0m[1;32m [0m[1;33m%[0m[1;33m [0m[1;32m3[0m[1;32m [0m[1;33m==[0m[1;33m [0m[1;32m0[0m[1;32m [0m[1;33m&&[0m[1;33m [0m[1;32mnumber[0m[1;32m [0m[1;33m%[0m[1;33m [0m[1;32m5[0m[1;32m [0m[1;33m==[0m[1;33m [0m[1;32m0[0m[1;33m)[0m[1;33m [0m[1;32m{[0m[1;32m
+        [0m[1;33mprint[0m[1;33m [0m[1;32m"FizzBuzz "[0m[1;32m [0m[1;33mnumber[0m[1;32m;[0m[1;32m
+    [0m[1;33m}[0m[1;33m [0m[1;32melif[0m[1;32m [0m[1;33m([0m[1;32mnumber[0m[1;32m [0m[1;33m%[0m[1;33m [0m[1;32m5[0m[1;32m [0m[1;33m==[0m[1;33m [0m[1;32m0[0m[1;33m)[0m[1;33m [0m[1;32m{[0m[1;32m
+        [0m[1;33mprint[0m[1;33m [0m[1;32m"Fizz "[0m[1;32m [0m[1;33mnumber[0m[1;32m;[0m[1;32m
+    [0m[1;33m}[0m[1;33m [0m[1;32melif[0m[1;32m [0m[1;33m([0m[1;32mnumber[0m[1;32m [0m[1;33m%[0m[1;33m [0m[1;32m3[0m[1;32m [0m[1;33m==[0m[1;33m [0m[1;32m0[0m[1;33m)[0m[1;33m [0m[1;32m{[0m[1;32m
+        [0m[1;33mprint[0m[1;33m [0m[1;32m"Buzz "[0m[1;32m [0m[1;33mnumber[0m[1;32m;[0m[1;32m
+    [0m[1;33m}[0m[1;33m [0m[1;32melse[0m[1;32m [0m[1;33m{[0m[1;33m
+        [0m[1;32mprint[0m[1;32m [0m[1;33mnumber[0m[1;32m;[0m[1;32m
+    [0m[1;33m}[0m[1;33m
+    
+    [0m[1;32mnumber[0m[1;32m [0m[1;33m=[0m[1;33m [0m[1;32mnumber[0m[1;32m [0m[1;33m+[0m[1;33m [0m[1;32m1[0m[1;33m;[0m[1;33m
+[0m[1;32m}[0m[1;32m [0m[1;33mwhile[0m[1;33m [0m[1;32m([0m[1;33mnumber[0m[1;33m [0m[1;32m<=[0m[1;32m [0m[1;33m100[0m[1;32m)[0m[1;33m;[0m[1;33m
+[0m[1;37m
 *** Parsing ***[0m
 [1;36mShift: [0m[1;32m^ [0m
-[1;36mShift: [0m[1;32m^ [0m[1;32mi [0m
-[1;36mShift: [0m[1;32m^ [0m[1;32mi [0m[1;32m= [0m
-[1;36mShift: [0m[1;32m^ [0m[1;32mi [0m[1;32m= [0m[1;32m0 [0m
-[1;34mRed19: [0m[1;32m^ [0m[1;32mi [0m[1;32m= [0m[1;33mAtom [0m
-[1;34mRed20: [0m[1;32m^ [0m[1;32mi [0m[1;32m= [0m[1;33mExpr [0m
-[1;36mShift: [0m[1;32m^ [0m[1;32mi [0m[1;32m= [0m[1;33mExpr [0m[1;32m; [0m
+[1;36mShift: [0m[1;32m^ [0m[1;32mnumber [0m
+[1;36mShift: [0m[1;32m^ [0m[1;32mnumber [0m[1;32m= [0m
+[1;36mShift: [0m[1;32m^ [0m[1;32mnumber [0m[1;32m= [0m[1;32m1 [0m
+[1;34mRed19: [0m[1;32m^ [0m[1;32mnumber [0m[1;32m= [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;32mnumber [0m[1;32m= [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;32mnumber [0m[1;32m= [0m[1;33mExpr [0m[1;32m; [0m
 [1;34mRed05: [0m[1;32m^ [0m[1;33mAssn [0m
 [1;34mRed02: [0m[1;32m^ [0m[1;33mStmt [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32miterations [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32miterations [0m[1;32m= [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32miterations [0m[1;32m= [0m[1;32m10 [0m
-[1;34mRed19: [0m[1;32m^ [0m[1;33mStmt [0m[1;32miterations [0m[1;32m= [0m[1;33mAtom [0m
-[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32miterations [0m[1;32m= [0m[1;33mExpr [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32miterations [0m[1;32m= [0m[1;33mExpr [0m[1;32m; [0m
-[1;34mRed05: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mAssn [0m
-[1;34mRed02: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;32mi [0m
-[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;33mAtom [0m
-[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m[1;32m< [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m[1;32m< [0m[1;32miterations [0m
-[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m[1;32m< [0m[1;33mAtom [0m
-[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m[1;32m< [0m[1;33mExpr [0m
-[1;34mRed29: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;33mBexp [0m
-[1;34mRed22: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m[1;32m) [0m
-[1;34mRed26: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mPexp [0m
-[1;34mRed21: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;32msums [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;32msums [0m[1;32m[ [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;32msums [0m[1;32m[ [0m[1;32mi [0m
-[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;32msums [0m[1;32m[ [0m[1;33mAtom [0m
-[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;32msums [0m[1;32m[ [0m[1;33mExpr [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;32msums [0m[1;32m[ [0m[1;33mExpr [0m[1;32m] [0m
-[1;34mRed44: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;32mi [0m
-[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;33mAtom [0m
-[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;33mExpr [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m[1;32mi [0m
-[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m[1;33mAtom [0m
-[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m[1;33mExpr [0m
-[1;34mRed35: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;33mBexp [0m
-[1;34mRed22: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;33mExpr [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAexp [0m[1;32m= [0m[1;33mExpr [0m[1;32m; [0m
-[1;34mRed06: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mAssn [0m
-[1;34mRed02: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;32mi [0m
-[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;33mAtom [0m
-[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;33mExpr [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m[1;32m1 [0m
-[1;34mRed19: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m[1;33mAtom [0m
-[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m[1;33mExpr [0m
-[1;34mRed35: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;33mBexp [0m
-[1;34mRed22: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;33mExpr [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32mi [0m[1;32m= [0m[1;33mExpr [0m[1;32m; [0m
-[1;34mRed05: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;33mAssn [0m
-[1;34mRed02: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m} [0m
-[1;34mRed17: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;33mWhil [0m
-[1;34mRed12: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;33mCtrl [0m
-[1;34mRed04: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;33mStmt [0m
-[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m$ [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;32mnumber [0m
+[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m% [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m% [0m[1;32m3 [0m
+[1;34mRed19: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m% [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m% [0m[1;33mExpr [0m
+[1;34mRed39: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mBexp [0m
+[1;34mRed22: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m== [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m== [0m[1;32m0 [0m
+[1;34mRed19: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m== [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m== [0m[1;33mExpr [0m
+[1;34mRed27: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mBexp [0m
+[1;34mRed22: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m&& [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m&& [0m[1;32mnumber [0m
+[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m&& [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m&& [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m&& [0m[1;33mExpr [0m[1;32m% [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m&& [0m[1;33mExpr [0m[1;32m% [0m[1;32m5 [0m
+[1;34mRed19: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m&& [0m[1;33mExpr [0m[1;32m% [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m&& [0m[1;33mExpr [0m[1;32m% [0m[1;33mExpr [0m
+[1;34mRed39: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m&& [0m[1;33mBexp [0m
+[1;34mRed22: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m&& [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m&& [0m[1;33mExpr [0m[1;32m== [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m&& [0m[1;33mExpr [0m[1;32m== [0m[1;32m0 [0m
+[1;34mRed19: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m&& [0m[1;33mExpr [0m[1;32m== [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m&& [0m[1;33mExpr [0m[1;32m== [0m[1;33mExpr [0m
+[1;34mRed27: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m&& [0m[1;33mBexp [0m
+[1;34mRed22: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m&& [0m[1;33mExpr [0m
+[1;34mRed33: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mBexp [0m
+[1;34mRed22: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;32m( [0m[1;33mExpr [0m[1;32m) [0m
+[1;34mRed26: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;33mPexp [0m
+[1;34mRed21: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;33mExpr [0m[1;32m{ [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;33mExpr [0m[1;32m{ [0m[1;32mprint [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;33mExpr [0m[1;32m{ [0m[1;32mprint [0m[1;32m"FizzBuzz " [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;33mExpr [0m[1;32m{ [0m[1;32mprint [0m[1;32m"FizzBuzz " [0m[1;32mnumber [0m
+[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;33mExpr [0m[1;32m{ [0m[1;32mprint [0m[1;32m"FizzBuzz " [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;33mExpr [0m[1;32m{ [0m[1;32mprint [0m[1;32m"FizzBuzz " [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;33mExpr [0m[1;32m{ [0m[1;32mprint [0m[1;32m"FizzBuzz " [0m[1;33mExpr [0m[1;32m; [0m
+[1;34mRed08: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;33mExpr [0m[1;32m{ [0m[1;33mPrnt [0m
+[1;34mRed03: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;32mif [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32m} [0m
+[1;34mRed13: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;32m( [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;32m( [0m[1;32mnumber [0m
+[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;32m( [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m[1;32m% [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m[1;32m% [0m[1;32m5 [0m
+[1;34mRed19: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m[1;32m% [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m[1;32m% [0m[1;33mExpr [0m
+[1;34mRed39: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;32m( [0m[1;33mBexp [0m
+[1;34mRed22: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m[1;32m== [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m[1;32m== [0m[1;32m0 [0m
+[1;34mRed19: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m[1;32m== [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m[1;32m== [0m[1;33mExpr [0m
+[1;34mRed27: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;32m( [0m[1;33mBexp [0m
+[1;34mRed22: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m[1;32m) [0m
+[1;34mRed26: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;33mPexp [0m
+[1;34mRed21: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m[1;32mprint [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m[1;32mprint [0m[1;32m"Fizz " [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m[1;32mprint [0m[1;32m"Fizz " [0m[1;32mnumber [0m
+[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m[1;32mprint [0m[1;32m"Fizz " [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m[1;32mprint [0m[1;32m"Fizz " [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m[1;32mprint [0m[1;32m"Fizz " [0m[1;33mExpr [0m[1;32m; [0m
+[1;34mRed08: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m[1;33mPrnt [0m
+[1;34mRed03: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32m} [0m
+[1;34mRed14: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;32m( [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;32m( [0m[1;32mnumber [0m
+[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;32m( [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m[1;32m% [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m[1;32m% [0m[1;32m3 [0m
+[1;34mRed19: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m[1;32m% [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m[1;32m% [0m[1;33mExpr [0m
+[1;34mRed39: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;32m( [0m[1;33mBexp [0m
+[1;34mRed22: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m[1;32m== [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m[1;32m== [0m[1;32m0 [0m
+[1;34mRed19: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m[1;32m== [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m[1;32m== [0m[1;33mExpr [0m
+[1;34mRed27: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;32m( [0m[1;33mBexp [0m
+[1;34mRed22: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;32m( [0m[1;33mExpr [0m[1;32m) [0m
+[1;34mRed26: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;33mPexp [0m
+[1;34mRed21: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m[1;32mprint [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m[1;32mprint [0m[1;32m"Buzz " [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m[1;32mprint [0m[1;32m"Buzz " [0m[1;32mnumber [0m
+[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m[1;32mprint [0m[1;32m"Buzz " [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m[1;32mprint [0m[1;32m"Buzz " [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m[1;32mprint [0m[1;32m"Buzz " [0m[1;33mExpr [0m[1;32m; [0m
+[1;34mRed08: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m[1;33mPrnt [0m
+[1;34mRed03: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;32melif [0m[1;33mExpr [0m[1;32m{ [0m[1;33mStmt [0m[1;32m} [0m
+[1;34mRed14: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;33mElif [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;33mElif [0m[1;32melse [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;33mElif [0m[1;32melse [0m[1;32m{ [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;33mElif [0m[1;32melse [0m[1;32m{ [0m[1;32mprint [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;33mElif [0m[1;32melse [0m[1;32m{ [0m[1;32mprint [0m[1;32mnumber [0m
+[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;33mElif [0m[1;32melse [0m[1;32m{ [0m[1;32mprint [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;33mElif [0m[1;32melse [0m[1;32m{ [0m[1;32mprint [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;33mElif [0m[1;32melse [0m[1;32m{ [0m[1;32mprint [0m[1;33mExpr [0m[1;32m; [0m
+[1;34mRed07: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;33mElif [0m[1;32melse [0m[1;32m{ [0m[1;33mPrnt [0m
+[1;34mRed03: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;33mElif [0m[1;32melse [0m[1;32m{ [0m[1;33mStmt [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;33mElif [0m[1;32melse [0m[1;32m{ [0m[1;33mStmt [0m[1;32m} [0m
+[1;34mRed15: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCond [0m[1;33mElif [0m[1;33mElif [0m[1;33mElse [0m
+[1;34mRed10: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mCtrl [0m
+[1;34mRed04: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;32mnumber [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;32mnumber [0m[1;32m= [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;32mnumber [0m[1;32m= [0m[1;32mnumber [0m
+[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;32mnumber [0m[1;32m= [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;32mnumber [0m[1;32m= [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;32mnumber [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;32mnumber [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m[1;32m1 [0m
+[1;34mRed19: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;32mnumber [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;32mnumber [0m[1;32m= [0m[1;33mExpr [0m[1;32m+ [0m[1;33mExpr [0m
+[1;34mRed35: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;32mnumber [0m[1;32m= [0m[1;33mBexp [0m
+[1;34mRed22: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;32mnumber [0m[1;32m= [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;32mnumber [0m[1;32m= [0m[1;33mExpr [0m[1;32m; [0m
+[1;34mRed05: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;33mAssn [0m
+[1;34mRed02: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m} [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m} [0m[1;32mwhile [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m} [0m[1;32mwhile [0m[1;32m( [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m} [0m[1;32mwhile [0m[1;32m( [0m[1;32mnumber [0m
+[1;34mRed18: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m} [0m[1;32mwhile [0m[1;32m( [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m} [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m} [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m[1;32m<= [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m} [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m[1;32m<= [0m[1;32m100 [0m
+[1;34mRed19: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m} [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m[1;32m<= [0m[1;33mAtom [0m
+[1;34mRed20: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m} [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m[1;32m<= [0m[1;33mExpr [0m
+[1;34mRed31: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m} [0m[1;32mwhile [0m[1;32m( [0m[1;33mBexp [0m
+[1;34mRed22: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m} [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m} [0m[1;32mwhile [0m[1;32m( [0m[1;33mExpr [0m[1;32m) [0m
+[1;34mRed26: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m} [0m[1;32mwhile [0m[1;33mPexp [0m
+[1;34mRed21: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m} [0m[1;32mwhile [0m[1;33mExpr [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;32mdo [0m[1;32m{ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m} [0m[1;32mwhile [0m[1;33mExpr [0m[1;32m; [0m
+[1;34mRed16: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mDowh [0m
+[1;34mRed11: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mCtrl [0m
+[1;34mRed04: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m
+[1;36mShift: [0m[1;32m^ [0m[1;33mStmt [0m[1;33mStmt [0m[1;32m$ [0m
 [1;34mRed01: [0m[1;33mUnit [0m
 [1;32mACCEPT [0m[1;33mUnit [0m
 [1;37m
 *** Running ***[0m
+1
+2
+Buzz 3
+4
+Fizz 5
+Buzz 6
+7
+8
+Buzz 9
+Fizz 10
+11
+Buzz 12
+13
+14
+FizzBuzz 15
+16
+17
+Buzz 18
+19
+Fizz 20
+Buzz 21
+22
+23
+Buzz 24
+Fizz 25
+26
+Buzz 27
+28
+29
+FizzBuzz 30
+31
+32
+Buzz 33
+34
+Fizz 35
+Buzz 36
+37
+38
+Buzz 39
+Fizz 40
+41
+Buzz 42
+43
+44
+FizzBuzz 45
+46
+47
+Buzz 48
+49
+Fizz 50
+Buzz 51
+52
+53
+Buzz 54
+Fizz 55
+56
+Buzz 57
+58
+59
+FizzBuzz 60
+61
+62
+Buzz 63
+64
+Fizz 65
+Buzz 66
+67
+68
+Buzz 69
+Fizz 70
+71
+Buzz 72
+73
+74
+FizzBuzz 75
+76
+77
+Buzz 78
+79
+Fizz 80
+Buzz 81
+82
+83
+Buzz 84
+Fizz 85
+86
+Buzz 87
+88
+89
+FizzBuzz 90
+91
+92
+Buzz 93
+94
+Fizz 95
+Buzz 96
+97
+98
+Buzz 99
+Fizz 100
